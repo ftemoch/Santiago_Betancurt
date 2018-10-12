@@ -32,9 +32,9 @@ namespace Parcial2.Controllers
         {
 
             var listaclientes = new ListaCliente();
-            var model = listaclientes.Clientes();
+            var lista = listaclientes.Clientes();
 
-            return View(model);
+            return View(lista);
 
 
         }
